@@ -7,7 +7,7 @@ A light-themed starter powered by [Gatsby v2](https://www.gatsbyjs.org) and [Pri
 
 ### 👩‍💻 [Demo website](http://prist.marguerite.io)
 
-## ✨ Features
+## ✨ Featuress
 
 - Landing page with customizable Hero, Portfolio preview, and About component.
 - [Emotion](https://emotion.sh/docs/styled) styled components
@@ -292,4 +292,3 @@ In the right panel, select *JSON editor* and paste the following:
   }
 }
 ```
-
