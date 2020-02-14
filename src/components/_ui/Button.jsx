@@ -10,8 +10,8 @@ const ButtonContainer = styled("button")`
     color: white;
     outline: none;
     border: none;
+    border-radius: 6px;
     font-size: 1rem;
-    border-radius: 2px;
     position: relative;
     transition: background 100ms ease-in-out;
 
@@ -31,6 +31,7 @@ const ButtonContainer = styled("button")`
         top: 0;
         width: 100%;
         height: 100%;
+        border-radius: 6px;
         background: linear-gradient(135deg, ${colors.pink400} 0%, ${colors.purple400} 100%);
         z-index: -1;
     }

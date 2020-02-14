@@ -55,7 +55,8 @@ const ProjectCardContainer = styled(Link)`
 `
 
 const ProjectCardContent = styled("div")`
-    background: white;
+    background: ${colors.grey900};
+    border-radius: 12px 0px 0px 12px;
     padding: 4em 3em 2.25em 3em;
     position: relative;
 
@@ -78,6 +79,7 @@ const ProjectCardContent = styled("div")`
 
     @media(max-width:${dimensions.maxwidthTablet}px) {
         grid-row: 2;
+        border-radius: 0px 0px 12px 12px;
     }
 `
 
@@ -116,7 +118,8 @@ const ProjectCardAction = styled("div")`
 `
 
 const ProjectCardImageContainer = styled("div")`
-    background: ${colors.grey200};
+    background: ${colors.grey900};
+    border-radius: 0px 12px 12px 0px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -128,6 +131,7 @@ const ProjectCardImageContainer = styled("div")`
     @media(max-width:${dimensions.maxwidthTablet}px) {
         padding-top: 3em;
         max-height: 200px;
+        border-radius: 12px 12px 0px 0px;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;

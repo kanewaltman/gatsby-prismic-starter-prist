@@ -9,7 +9,7 @@ import Button from "components/_ui/Button";
 import Layout from "components/Layout";
 
 const ProjectHeroContainer = styled("div")`
-    background: ${colors.grey200};
+    background: ${colors.grey900};
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -17,6 +17,7 @@ const ProjectHeroContainer = styled("div")`
     position: relative;
     padding-top: 2.25em;
     margin-bottom: 3.5em;
+    border-radius: 6px;
 
     img {
         max-width: 600px;
@@ -54,7 +55,7 @@ const Project = ({ project, meta }) => {
     return (
         <>
             <Helmet
-                title={`${project.project_title[0].text} | Prist, Gatsby & Prismic Starter`}
+                title={`${project.project_title[0].text} | Kane Waltman`}
                 titleTemplate={`%s | ${meta.title}`}
                 meta={[
                     {
@@ -63,7 +64,7 @@ const Project = ({ project, meta }) => {
                     },
                     {
                         property: `og:title`,
-                        content: `${project.project_title[0].text} | Prist, Gatsby & Prismic Starter`,
+                        content: `${project.project_title[0].text} | Kane Waltman`,
                     },
                     {
                         property: `og:description`,

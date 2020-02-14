@@ -1,11 +1,12 @@
 import css from '@emotion/css';
+import colors from "styles/colors";
 import dimensions from "styles/dimensions";
 
 const typeStyles = css`
     h1 {
         font-size: 2.8em;
         line-height: 1.45;
-        font-weight: 800;
+        font-weight: 600;
 
         @media(max-width:${dimensions.maxwidthTablet}px) {
             font-size: 2.25em;
@@ -45,7 +46,11 @@ const typeStyles = css`
     }
 
     a {
+      color: white;
+      font-weight: 600;
         &:hover {
+            color: ${colors.blue500};
+            transition: all 150ms ease-in-out;
             cursor: pointer;
         }
     }

@@ -17,7 +17,7 @@ const HeaderContent = styled("div")`
 
 const HeaderLinks = styled("div")`
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
     grid-gap: 7em;
     justify-content: flex-end;
     width: 100%;
@@ -89,6 +89,7 @@ const Header = () => (
                     to="/blog">
                     Blog
                 </Link>
+                <a href="https://kanecv.netlify.com/">CV</a>
             </HeaderLinks>
         </HeaderContent>
     </HeaderContainer>
